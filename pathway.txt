@@ -1,0 +1,31 @@
+MonsterMonk.com/
+│
+├── components/
+│   ├── AIArtGenerator.js          # Component for AI-generated art
+│   ├── PersonalizedAssistant.js   # AI assistant component
+│   ├── DynamicStorytelling.js     # Dynamic storytelling component
+│   ├── Navbar.js                  # Navigation bar
+│   └── Footer.js                  # Footer
+│
+├── pages/
+│   ├── api/
+│   │   ├── generateArt.js         # API route for AI art generation
+│   │   ├── personalize.js         # API route for personalized content
+│   │   └── story.js               # API route for dynamic storytelling
+│   │
+│   ├── index.js                   # Homepage
+│   ├── about.js                   # About page
+│   └── mixed-reality.js           # Mixed reality experience page
+│
+├── public/
+│   ├── images/                    # Static images
+│   └── styles/                    # Global stylesheets
+│
+├── styles/
+│   ├── global.css                 # Global CSS
+│   └── theme.js                   # Theme configurations (light/dark mode)
+│
+├── .env                           # Environment variables
+├── next.config.js                 # Next.js configuration
+├── package.json                   # Package dependencies
+└── README.md                      # Project documentation

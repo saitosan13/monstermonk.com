@@ -1,31 +1,56 @@
-MonsterMonk.com/
+SurrealAI/
 │
 ├── components/
-│   ├── AIArtGenerator.js          # Component for AI-generated art
-│   ├── PersonalizedAssistant.js   # AI assistant component
-│   ├── DynamicStorytelling.js     # Dynamic storytelling component
-│   ├── Navbar.js                  # Navigation bar
-│   └── Footer.js                  # Footer
+│   ├── AIArtGenerator/
+│   │   ├── AIArtGenerator.js          # AI art component
+│   │   └── AIArtGenerator.test.js     # Tests for the AI art component
+│   ├── PersonalizedAssistant/
+│   │   ├── PersonalizedAssistant.js   # AI assistant component
+│   │   └── PersonalizedAssistant.test.js # Tests for the assistant component
+│   ├── DynamicStorytelling/
+│   │   ├── DynamicStorytelling.js     # Dynamic storytelling component
+│   │   └── DynamicStorytelling.test.js # Tests for storytelling component
+│   ├── Blockchain/
+│   │   ├── Blockchain.js              # Blockchain integration component
+│   │   └── Blockchain.test.js         # Tests for blockchain component
+│   ├── QuantumComputing/
+│   │   ├── QuantumComputing.js        # Quantum computing placeholder component
+│   │   └── QuantumComputing.test.js   # Tests for quantum computing component
+│   ├── Navbar/
+│   │   ├── Navbar.js                  # Navigation bar component
+│   │   └── Navbar.test.js             # Tests for Navbar component
+│   └── Footer/
+│       ├── Footer.js                  # Footer component
+│       └── Footer.test.js             # Tests for Footer component
 │
 ├── pages/
 │   ├── api/
-│   │   ├── generateArt.js         # API route for AI art generation
-│   │   ├── personalize.js         # API route for personalized content
-│   │   └── story.js               # API route for dynamic storytelling
+│   │   ├── generateArt.js             # API route for AI art generation
+│   │   ├── personalize.js             # API route for personalized content
+│   │   └── story.js                   # API route for dynamic storytelling
 │   │
-│   ├── index.js                   # Homepage
-│   ├── about.js                   # About page
-│   └── mixed-reality.js           # Mixed reality experience page
+│   ├── index.js                       # Homepage
+│   ├── about.js                       # About page
+│   └── mixed-reality.js               # Mixed reality experience page
 │
 ├── public/
-│   ├── images/                    # Static images
-│   └── styles/                    # Global stylesheets
+│   ├── images/                        # Static images
+│   └── styles/                        # Global stylesheets
 │
 ├── styles/
-│   ├── global.css                 # Global CSS
-│   └── theme.js                   # Theme configurations (light/dark mode)
+│   ├── global.css                     # Global CSS
+│   ├── theme.js                       # Theme configurations (light/dark mode)
+│   └── components/                    # Component-specific stylesheets
 │
-├── .env                           # Environment variables
-├── next.config.js                 # Next.js configuration
-├── package.json                   # Package dependencies
-└── README.md                      # Project documentation
+├── utils/
+│   ├── apiHelpers.js                  # Utility functions for API requests
+│   ├── blockchainHelpers.js           # Blockchain-related utility functions
+│   └── quantumHelpers.js              # Quantum computing utility functions
+│
+├── .env                               # Environment variables
+├── next.config.js                     # Next.js configuration
+├── package.json                       # Package dependencies
+├── README.md                          # Project documentation
+└── tests/
+    ├── jest.config.js                 # Jest configuration for testing
+    └── setupTests.js                  # Setup for tests (e.g., mocking)

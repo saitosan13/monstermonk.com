@@ -1,0 +1,65 @@
+# Node.js dependencies
+/node_modules/
+
+# Build outputs
+/dist/
+/build/
+/out/
+/public/assets/
+/generated_assets/
+
+# Advanced build tools
+/.build/
+/.cache/
+/temp_build/
+
+# Web3 & Decentralized Technologies
+/.decentralized/
+/smart_contracts/
+/blockchain_data/
+/cryptographic_keys/
+
+# AI & Machine Learning
+/.ai_models/
+/ml_data/
+/predictions/
+/training_logs/
+
+# Privacy and Security
+/.secure_data/
+/encryption_keys/
+/auth_tokens/
+/secrets/
+
+# Frameworks and Dependencies
+/.framework_cache/
+/vendor_dependencies/
+/package_cache/
+
+# IDE and Editor settings
+.vscode/
+/.idea/
+/*.suo
+/*.ntvs*
+/*.njsproj
+/*.sln
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+*.error
+
+# Temporary and generated files
+*.tmp
+*.bak
+*.swp
+*.pid
+*.seed
+
+# Environment files
+.env
+.env.local
+.env.*.local

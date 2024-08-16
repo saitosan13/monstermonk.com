@@ -14,7 +14,7 @@ AI Integration: Use Python for AI-driven features, integrating models via framew
 
 Quantum Computing (Experimental): While practical quantum computing is still nascent, you can experiment with frameworks like Qiskit by IBM to explore quantum-safe encryption or quantum machine learning.
 
-3. Home Page
+2. Home Page
    
 AI-Generated Visuals and Animations:
 
